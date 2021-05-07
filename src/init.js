@@ -1,7 +1,7 @@
 import { compileToFunction } from "./compiler/index";
 import { mountComponent, callHook } from "./lifecycle";
 import { initState } from "./state";
-import { mergeOptions } from "util/index";
+import { mergeOptions } from "./util/index";
 
 // 初始化 vue 状态
 
